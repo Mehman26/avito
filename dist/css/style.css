@@ -125,3 +125,7 @@ body .wrapper {
   flex-direction: column;
   overflow: hidden;
 }
+body ._container {
+  width: 1316px;
+  margin: 0 a;
+}
