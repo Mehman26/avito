@@ -18,12 +18,17 @@ body {
     overflow: hidden;
   }
   ._container {
-    width: 1316px;
-    margin: 0 a;
+    width: 1346px;
+	padding: 0 15px;
+    margin: 0 auto;
   }
 }
 .header {
   &__top {
+    background-color: #292929;
+    min-height: 44px;
+    display: flex;
+    align-items: center;
   }
 
   &__body {
@@ -34,6 +39,9 @@ body {
   }
 
   &__body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 }
 .body-top-header {
@@ -41,26 +49,50 @@ body {
   }
 
   &__account-menu {
+    display: flex;
+    align-items: center;
   }
 }
 .menu {
   &__list {
+    display: flex;
+    gap: 22px;
   }
 
   &__item {
+
   }
 
   &__link {
+    color: #fff;
+    font-weight: 600;
+
+	&:hover {
+		color: #BE5052;
+	}
   }
 }
 .account-menu {
+  gap: 22px;
   &__favorite-menu {
+    display: flex;
+    gap: 13px;
   }
 
   &__user-account {
+    color: #fff;
+    font-weight: 600;
+	&:hover {
+		color: #BE5052;
+	}
   }
 
   &__post-ads {
+    font-weight: 400;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 10px;
+    background-color: #00aaff;
   }
 }
 .favorite-menu {

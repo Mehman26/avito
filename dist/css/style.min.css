@@ -126,6 +126,58 @@ body .wrapper {
   overflow: hidden;
 }
 body ._container {
-  width: 1316px;
-  margin: 0 a;
+  width: 1346px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.header__top {
+  background-color: #292929;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+}
+.top-header__body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.body-top-header__account-menu {
+  display: flex;
+  align-items: center;
+}
+
+.menu__list {
+  display: flex;
+  gap: 22px;
+}
+.menu__link {
+  color: #fff;
+  font-weight: 600;
+}
+.menu__link:hover {
+  color: #BE5052;
+}
+
+.account-menu {
+  gap: 22px;
+}
+.account-menu__favorite-menu {
+  display: flex;
+  gap: 13px;
+}
+.account-menu__user-account {
+  color: #fff;
+  font-weight: 600;
+}
+.account-menu__user-account:hover {
+  color: #BE5052;
+}
+.account-menu__post-ads {
+  font-weight: 400;
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 10px;
+  background-color: #00aaff;
 }
